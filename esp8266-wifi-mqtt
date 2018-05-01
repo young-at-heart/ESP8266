@@ -9,9 +9,9 @@ Basic ESP8266 MQTT
 // WiFi Parameters & MQTT Server IP Address
 
 SimpleDHT11 dht11;
-char ssid[] = "XXX";                                           // WiFi SSID
+char ssid[] = "XXX";                                // WiFi SSID
 char password[] = "yyyuuuddd";                      // WiFi password
-char mqtt_server[] = "192.168.2.254";            // mqtt server IP address
+char mqtt_server[] = "192.168.2.254";               // mqtt server IP address
 long lastMsg = 0;
 char msg[50];
 int value1 = 0;
