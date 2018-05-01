@@ -1,5 +1,5 @@
 /*
-Basic ESP8266 MQTT
+* Basic ESP8266 MQTT
 */
 
 #include <ESP8266WiFi.h>
@@ -118,3 +118,4 @@ Serial.println(msg);
 client.publish("outTopic", msg);
 }
 }
+// end of file
